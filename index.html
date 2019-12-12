@@ -11,11 +11,31 @@
     <title>Hello, world!</title>
     <style>
         /*Styling*/
-        body *{
-            border:1px solid !important;/*Show margin limits*/
-            background-color: grey !important ;/*show padding spacing*/
-        }
         
+        header{
+            background-color:#91FF64;
+        }
+        header input{
+            border:0px;
+        }
+        footer{
+            background-color:#7D7D7D;
+            color: white;
+        }
+        nav{
+            background-color:#BDBDBD;
+        }
+        article{
+            background-color: #E0E0E0;
+            border: 5px solid #4A4A4A;
+        }
+        footer button,nav p{
+            background-color: #91FF64 !important;
+            color:white !;
+        }
+        #logo,input,article,article img{
+            border-radius: 2rem;
+        }
         /* Structure CSS */
         #logo{
             max-height: 100%;
@@ -49,6 +69,7 @@
         }
         footer p{
             margin:auto;
+            margin-left: 1%;
         }
         header{
             height: 20vh;
@@ -62,6 +83,7 @@
         article h5{
             margin-top: 10%;
         }
+        
         footer button{
             margin: 1%;
         }
@@ -75,16 +97,16 @@
             <header class="row align-items-center">
                 <img src="./img/logo.png" id="logo" alt="image" class="mx-auto text-center d-none d-md-block d-xl-block d-lg-block">
                 <div class="col">
-                    <h1 class="text-center text-xl-left text-lg-left text-md-left">Tittle</h1>
-                    <h2 class="d-none d-md-block d-xl-block d-lg-block">SubTittle eugrtthttht</h2>
+                    <h1 class="text-center text-xl-left text-lg-left text-md-left">InfoNews</h1>
+                    <h2 class="d-none d-md-block d-xl-block d-lg-block">Noticias </h2>
                 </div>
                 <input type="text" id="search">
             </header>
             <div class="row" id="maincontainer">
                 <div class="row">
                 <nav style="max-width: 20vw;" class="col flex-column d-none d-md-flex d-xl-flex d-lg-flex align-items-center">
-                    <p id="firstbutton" class="nav-link rounded-sm"><a>item list 2</a></p>
-                    <p class="nav-link rounded-sm"><a  href="/index.html">item list 2</a></p>
+                    <p id="firstbutton" class="nav-link rounded-sm"><a href="/index.html">item list 2</a></p>
+                    <p class="nav-link rounded-sm"><a>item list 2</a></p>
                     <p class="nav-link rounded-sm"><a>item list 3</a></p>
                     <img src="./img/fff.png" alt="Anuncio" class=" anuncio img-thumbnail justify-content-end">
                 </nav>
