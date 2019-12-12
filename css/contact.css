@@ -1,0 +1,8 @@
+#cont{
+    min-width: 100vw !important;
+    justify-content: space-between !important;
+    
+}
+main{
+    overflow: hidden !important;
+}
