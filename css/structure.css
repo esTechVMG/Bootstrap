@@ -59,5 +59,10 @@ input{
     padding-left:1%;
 }
 nav{
-    max-width: 20vw !important;
+    max-width: 10vw !important;
+}
+#cont{
+    min-width: 100vw !important;
+    justify-content: space-between !important;
+    
 }
