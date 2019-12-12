@@ -1,0 +1,59 @@
+#logo{
+    max-height: 100%;
+    padding: 1%;
+
+    
+}
+#search{
+    margin: 1%;    
+}
+nav{
+    height: 80vh;
+    
+    }
+.anuncio{
+margin-top: auto;
+}
+main{
+    overflow: scroll;
+    max-height: 80vh;
+}
+#latad{
+    overflow: hidden;
+}
+#maincontainer{
+    margin: 0;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+footer p{
+    margin:auto;
+    margin-left: 1%;
+}
+header{
+    height: 20vh;
+}
+main img{
+    padding: 5%;
+}
+section article{
+    margin: 1%;
+}
+section article h5{
+    margin-top: 10%;
+}
+
+footer button{
+    margin: 1%;
+}
+#firstbutton{
+    margin-top:10%;
+}
+nav p{
+    white-space: nowrap;
+}
+header input{
+    padding-right:1%;
+}
