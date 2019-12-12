@@ -11,3 +11,6 @@
 #post h5{
     padding-top:3% ;
 }
+footer{
+    visibility: hidden;
+}
