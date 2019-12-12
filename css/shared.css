@@ -29,11 +29,11 @@ footer button,nav p{
     border-radius: 2rem;
 }
 a,a:hover{
-    color: black;
-    text-decoration: none;
+    color: black !important;
+    text-decoration: none !important;
 }
 a:active{
-    color: white;
+    color: white !important;
 }
 main div h5{
     color: white !important;
