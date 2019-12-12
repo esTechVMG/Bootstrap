@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>InfoNews</title>
+    <style>
+        /*Styling*/
+        body{
+            font-family: sans-serif;
+        }
+        header{
+            background-color:#91FF64;
+        }
+        header h1,header h2{
+            font-family: 'Anton', sans-serif;
+        }
+        header input{
+            border:0px;
+        }
+        footer{
+            background-color:#7D7D7D;
+            color: white;
+        }
+        nav{
+            background-color:#BDBDBD;
+        }
+        article{
+            background-color: #E0E0E0;
+            border: 5px solid #4A4A4A;
+        }
+        footer button,nav p{
+            background-color: #91FF64 !important;
+            color:white !;
+        }
+        #logo,input,article,article img{
+            border-radius: 2rem;
+        }
+        a,a:hover{
+            color: black;
+            text-decoration: none;
+        }
+        a:active{
+            color: white;
+        }
+        main div h5{
+            color: white !important;
+            background-color: #29A400 !important;
+        }
+        #firstcat{
+            margin-top: 1%;
+        }
+        /* Structure CSS */
+        #logo{
+            max-height: 100%;
+            padding: 1%;
+
+            
+        }
+        #search{
+            margin: 1%;    
+        }
+        nav{
+            height: 80vh;
+            
+            }
+        .anuncio{
+        margin-top: auto;
+        }
+        main{
+            overflow: scroll;
+            max-height: 80vh;
+        }
+        #latad{
+            overflow: hidden;
+        }
+        #maincontainer{
+            margin: 0;
+        }
+        body{
+            overflow: hidden;
+            height: 100vh;
+        }
+        footer p{
+            margin:auto;
+            margin-left: 1%;
+        }
+        header{
+            height: 20vh;
+        }
+        main img{
+            padding: 5%;
+        }
+        article{
+            margin: 1%;
+        }
+        article h5{
+            margin-top: 10%;
+        }
+        
+        footer button{
+            margin: 1%;
+        }
+        #firstbutton{
+            margin-top:10%;
+        }
+        nav p{
+            white-space: nowrap;
+        }
+        header input{
+            padding-right:1%;
+        }
+    </style>
+  </head>
+  <body class="col">
+            <header class="row align-items-center">
+                <img src="../img/logo.png" id="logo" alt="image" class="mx-auto text-center d-none d-md-block d-xl-block d-lg-block">
+                <div class="col">
+                    <h1 class="text-center text-xl-left text-lg-left text-md-left">InfoNews</h1>
+                    <h2 class="d-none d-md-block d-xl-block d-lg-block">Información confiable y de calidad </h2>
+                </div>
+                <input type="text" id="search" class="text-right" placeholder="Search">
+            </header>
+            <div class="row" id="maincontainer">
+                <div class="row">
+                <nav style="max-width: 20vw;" class="col flex-column d-none d-md-flex d-xl-flex d-lg-flex align-items-center">
+                    <p id="firstbutton" class="nav-link rounded-sm w-100 text-center"><a href="/index.html">Inicio</a></p>
+                    <p class="nav-link rounded-sm w-100 text-center"><a href="../html/categories.html">Categorías</a></p>
+                    <p class="nav-link rounded-sm w-100 text-center"><a href="../html/contacto.html">Contacto</a></p>
+                    <img src="../img/AdDummy.png" alt="Anuncio" class=" anuncio img-thumbnail justify-content-end">
+                </nav>
+                <main class="col">
+                    <div id="firstcat" class="rounded-sm">
+                        <h5 class="text-left my-auto btn">Actualidad</h5>
+                    </div>
+                    <section class="row">
+                        <article class="col">
+                            <h5><a href="">New 1</a></h5>
+                            <h6>lorem ipsum dolor sit amet</h6>
+                            <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                        </article>
+                        <article class="col">
+                            <h5><a href="">New 2</a></h5>
+                            <h6>lorem ipsum dolor sit amet</h6>
+                            <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                        </article>
+                        <article class="col">
+                                <h5><a href="">New 3</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                        </article>
+                    </section>
+                    <div class="rounded-sm">
+                        <h5 class="text-left my-auto btn">Deporte</h5>
+                    </div>
+                    <section class="row">
+                            <article class="col">
+                                <h5><a href="">New 1</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                            <article class="col">
+                                <h5><a href="">New 2</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                            <article class="col">
+                                    <h5><a href="">New 3</a></h5>
+                                    <h6>lorem ipsum dolor sit amet</h6>
+                                    <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                        </section>
+                    <div class="rounded-sm">
+                                <h5 class="text-left my-auto btn">Política</h5>
+                    </div>
+                    <section class="row">
+                            <article class="col">
+                                <h5><a href="">New 1</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                            <article class="col">
+                                <h5><a href="">New 2</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                            <article class="col">
+                                    <h5><a href="">New 3</a></h5>
+                                    <h6>lorem ipsum dolor sit amet</h6>
+                                    <img src="../img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                        </section>
+                </main>
+                <img src="../img/AdDummy.png" id="latad" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block">
+            </div>
+            </div>
+            <footer class="d-flex position-fixed fixed-bottom align-items-center" aria-expanded="true" id="cookiemenu">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse totam blanditiis dolor possimus? Harum molestias nemo dolores perferendis omnis, cumque ipsam tempora? Corrupti nam eius aliquid asperiores explicabo modi aliquam.</p>
+                <button class="btn rounded-sm">Aceptar</button>
+            </footer>        
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
