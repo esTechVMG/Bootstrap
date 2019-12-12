@@ -4,16 +4,22 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet"> 
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>InfoNews</title>
     <style>
         /*Styling*/
-        
+        body{
+
+        }
         header{
             background-color:#91FF64;
+        }
+        header h1,header h2{
+            font-family: 'Anton', sans-serif;
         }
         header input{
             border:0px;
@@ -98,17 +104,17 @@
                 <img src="./img/logo.png" id="logo" alt="image" class="mx-auto text-center d-none d-md-block d-xl-block d-lg-block">
                 <div class="col">
                     <h1 class="text-center text-xl-left text-lg-left text-md-left">InfoNews</h1>
-                    <h2 class="d-none d-md-block d-xl-block d-lg-block">Noticias </h2>
+                    <h2 class="d-none d-md-block d-xl-block d-lg-block">Información confiable y de calidad </h2>
                 </div>
                 <input type="text" id="search">
             </header>
             <div class="row" id="maincontainer">
                 <div class="row">
                 <nav style="max-width: 20vw;" class="col flex-column d-none d-md-flex d-xl-flex d-lg-flex align-items-center">
-                    <p id="firstbutton" class="nav-link rounded-sm"><a href="/index.html">item list 2</a></p>
-                    <p class="nav-link rounded-sm"><a>item list 2</a></p>
-                    <p class="nav-link rounded-sm"><a>item list 3</a></p>
-                    <img src="./img/fff.png" alt="Anuncio" class=" anuncio img-thumbnail justify-content-end">
+                    <p id="firstbutton" class="nav-link rounded-sm w-75 text-center"><a href="/index.html">Inicio</a></p>
+                    <p class="nav-link rounded-sm w-75 text-center"><a>item list 2</a></p>
+                    <p class="nav-link rounded-sm w-75 text-center"><a>item list 3</a></p>
+                    <img src="./img/AdDummy.png" alt="Anuncio" class=" anuncio img-thumbnail justify-content-end">
                 </nav>
                 <main class="col">
                     <div class="rounded-sm">
@@ -172,12 +178,12 @@
                                     </article>
                                 </section>
                 </main>
-                <img src="./img/fff.png" id="latad" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block">
+                <img src="./img/AdDummy.png" id="latad" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block">
             </div>
             </div>
-            <footer class="d-flex position-fixed fixed-bottom align-items-center collapse show" aria-expanded="true" id="cookiemenu">
+            <footer class="d-flex position-fixed fixed-bottom align-items-center" aria-expanded="true" id="cookiemenu">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse totam blanditiis dolor possimus? Harum molestias nemo dolores perferendis omnis, cumque ipsam tempora? Corrupti nam eius aliquid asperiores explicabo modi aliquam.</p>
-                <button data-toggle="collapse" data-target="#cookiemenu" class="btn rounded-sm show" aria-expanded="true">Aceptar</button>
+                <button class="btn rounded-sm">Aceptar</button>
             </footer>        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
