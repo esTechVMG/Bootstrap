@@ -23,7 +23,7 @@ article{
 }
 footer button,nav p{
     background-color: #91FF64 !important;
-    color:white !;
+    color:white;
 }
 #logo,input,article,article img{
     border-radius: 2rem;
