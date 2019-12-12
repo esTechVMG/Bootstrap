@@ -30,46 +30,96 @@
         .anuncio{
         margin-top: auto;
         }
+        main{
+            overflow-y:scroll;
+        }
+        #latad{
+            overflow: hidden;
+            height: 100vh;
+        }
+        #maincontainer,body>div{
+            margin: 0;
+            
+        }
+        #maincontainer{
+            width: 99vw;
+            height:100vh;
+        }
+        main{
+            
+        }
+            
     </style>
   </head>
   <body class="col">
             <header class="row align-items-center">
-                <button class="d-md-none navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                </button>
                 <img src="./img/logo.png" id="logo" alt="image" class="mx-auto text-center img-thumbnail d-none d-md-block d-xl-block d-lg-block">
                 <div class="col">
                     <h1 class="text-center text-xl-left text-lg-left text-md-left">Tittle</h1>
                     <h2 class="d-none d-md-block d-xl-block d-lg-block">SubTittle eugrtthttht</h2>
                 </div>
                 <input type="text" id="search">
-                
             </header>
-            <div class="row">
-                <nav class="col flex-column d-flex align-items-center">
+            <div class="row" id="maincontainer">
+                <div class="row w-75">
+                <nav class="col flex-column d-none d-md-flex d-xl-flex d-lg-flex align-items-center">
                     <p class="">item list 1</p>
                     <p class="">item list 2</p>
                     <p class="">item list 3</p>
                     <img src="./img/fff.png" alt="Anuncio" class=" anuncio img-thumbnail justify-content-end">
                 </nav>
-                <main class="col d-flex">
-                    <div class="row">
-                        <div class=""></div>
-                        <p>jhbjhrhrt</p>
-                        <p>rhjrbhuhht</p>
+                <main class="col">
+                    <div class="rounded-sm">
+                        <h3 class="text-center my-auto">Categoria 1</h3>
                     </div>
                     <div class="row">
-                        <p>hjehjijrhr</p>
-                        <p>jhbjhrhrt</p>
-                        <p>rhjrbhuhht</p>
+                        <div class="col">
+                            <h3>New 1</h3>
+                            <h4>lorem ipsum dolor sit amet</h4>
+                            <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <h3>New 2</h3>
+                            <h4>lorem ipsum dolor sit amet</h4>
+                            <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                        </div>
+                        <div class="col">
+                            <h3>New 3</h3>
+                            <h4>lorem ipsum dolor sit amet</h4>
+                            <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                        </div>
                     </div>
+                    <div class="">
+                            <h3 class="text-center my-auto">Categoria 1</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <h3>New 1</h3>
+                                <h4>lorem ipsum dolor sit amet</h4>
+                                <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                <h3>New 2</h3>
+                                <h4>lorem ipsum dolor sit amet</h4>
+                                <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                            </div>
+                            <div class="col">
+                                    <h3>New 3</h3>
+                                    <h4>lorem ipsum dolor sit amet</h4>
+                                    <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                                </div>
+                        </div>
                 </main>
-                <img src="./img/fff.png" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block">
             </div>
-            <div class="d-inline-flex position-fixed">
+            <img src="./img/fff.png" id="latad" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block w-25">
+            </div>
+            
+            
+
+            <footer class="d-flex position-fixed fixed-bottom align-items-center collapse show" aria-expanded="true" id="cookiemenu">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse totam blanditiis dolor possimus? Harum molestias nemo dolores perferendis omnis, cumque ipsam tempora? Corrupti nam eius aliquid asperiores explicabo modi aliquam.</p>
-                <button></button>
-            </div>        
+                <button data-toggle="collapse" data-target="#cookiemenu" class="btn rounded-sm show" aria-expanded="true">Aceptar</button>
+            </footer>        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
