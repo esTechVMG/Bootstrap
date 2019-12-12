@@ -10,15 +10,17 @@
 
     <title>Hello, world!</title>
     <style>
+        /*Styling*/
         body *{
             border:1px solid !important;/*Show margin limits*/
             background-color: grey !important ;/*show padding spacing*/
-        } 
+        }
+        
+        /* Structure CSS */
         #logo{
-            width:10vw;
-            height:10vw;
+            max-height: 100%;
             padding: 1%;
-            margin-left: 1%;
+
             
         }
         #search{
@@ -26,30 +28,42 @@
         }
         nav{
             height: 80vh;
+            
             }
         .anuncio{
         margin-top: auto;
         }
         main{
             overflow: scroll;
-            height: 100vh;
+            max-height: 80vh;
         }
         #latad{
             overflow: hidden;
-            height: 100vh;
-        }
-        #maincontainer,body>div{
-            margin: 0;
-            
         }
         #maincontainer{
-            width: 99vw;
-            height:100vh;
+            margin: 0;
         }
         body{
             overflow: hidden;
+            height: 100vh;
         }
-            
+        footer p{
+            margin:auto;
+        }
+        header{
+            height: 20vh;
+        }
+        main img{
+            padding: 10%;
+        }
+        article{
+            margin: 1%;
+        }
+        article h5{
+            margin-top: 10%;
+        }
+        
+        
     </style>
   </head>
   <body class="col">
@@ -62,8 +76,8 @@
                 <input type="text" id="search">
             </header>
             <div class="row" id="maincontainer">
-                <div class="row w-75">
-                <nav class="col flex-column d-none d-md-flex d-xl-flex d-lg-flex align-items-center">
+                <div class="row">
+                <nav style="max-width: 20vw;" class="col flex-column d-none d-md-flex d-xl-flex d-lg-flex align-items-center">
                     <p class="">item list 1</p>
                     <p class="">item list 2</p>
                     <p class="">item list 3</p>
@@ -71,72 +85,69 @@
                 </nav>
                 <main class="col">
                     <div class="rounded-sm">
-                        <h3 class="text-center my-auto">Categoria 1</h3>
+                        <h5 class="text-center my-auto">Categoria 1</h5>
                     </div>
-                    <div class="row">
-                        <div class="col">
-                            <h3>New 1</h3>
-                            <h4>lorem ipsum dolor sit amet</h4>
+                    <section class="row">
+                        <article class="col">
+                            <h5>New 1</h5>
+                            <h6>lorem ipsum dolor sit amet</h6>
                             <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                        </div>
-                        <div class="col">
-                            <h3>New 2</h3>
-                            <h4>lorem ipsum dolor sit amet</h4>
+                        </article>
+                        <article class="col">
+                            <h5>New 2</h5>
+                            <h6>lorem ipsum dolor sit amet</h6>
                             <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                        </div>
-                        <div class="col">
-                            <h3>New 3</h3>
-                            <h4>lorem ipsum dolor sit amet</h4>
+                        </article>
+                        <article class="col">
+                            <h5>New 3</h5>
+                            <h6>lorem ipsum dolor sit amet</h6>
                             <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                        </div>
-                    </div>
+                        </article>
+                    </section>
                     <div class="rounded-sm">
-                        <h3 class="text-center my-auto">Categoria 1</h3>
+                        <h5 class="text-center my-auto">Categoria 1</h5>
                     </div>
-                        <div class="row">
-                            <div class="col">
-                                <h3>New 1</h3>
-                                <h4>lorem ipsum dolor sit amet</h4>
+                        <section class="row">
+                            <article class="col">
+                                <h5>New 1</h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
                                 <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                            </div>
-                            <div class="col">
-                                <h3>New 2</h3>
-                                <h4>lorem ipsum dolor sit amet</h4>
+                            </article>
+                            <article class="col">
+                                <h5>New 2</h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
                                 <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                            </div>
-                            <div class="col">
-                                    <h3>New 3</h3>
-                                    <h4>lorem ipsum dolor sit amet</h4>
+                            </article>
+                            <article class="col">
+                                    <h5>New 3</h5>
+                                    <h6>lorem ipsum dolor sit amet</h6>
                                     <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                            </div>
-                        </div>
+                            </article>
+                        </section>
                         <div class="rounded-sm">
-                                <h3 class="text-center my-auto">Categoria 1</h3>
+                                <h5 class="text-center my-auto">Categoria 1</h5>
                             </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <h3>New 1</h3>
-                                        <h4>lorem ipsum dolor sit amet</h4>
+                                <section class="row">
+                                    <article class="col">
+                                        <h5>New 1</h5>
+                                        <h6>lorem ipsum dolor sit amet</h6>
                                         <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                                    </div>
-                                    <div class="col">
-                                        <h3>New 2</h3>
-                                        <h4>lorem ipsum dolor sit amet</h4>
+                                    </article>
+                                    <article class="col">
+                                        <h5>New 2</h5>
+                                        <h6>lorem ipsum dolor sit amet</h6>
                                         <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                                    </div>
-                                    <div class="col">
-                                            <h3>New 3</h3>
-                                            <h4>lorem ipsum dolor sit amet</h4>
+                                    </article>
+                                    <article class="col">
+                                            <h5>New 3</h5>
+                                            <h6>lorem ipsum dolor sit amet</h6>
                                             <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                                    </div>
-                                </div>
+                                    </article>
+                                </section>
                 </main>
+                <img src="./img/fff.png" id="latad" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block">
             </div>
-            <img src="./img/fff.png" id="latad" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block w-25">
             </div>
-            
-            
-
             <footer class="d-flex position-fixed fixed-bottom align-items-center collapse show" aria-expanded="true" id="cookiemenu">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse totam blanditiis dolor possimus? Harum molestias nemo dolores perferendis omnis, cumque ipsam tempora? Corrupti nam eius aliquid asperiores explicabo modi aliquam.</p>
                 <button data-toggle="collapse" data-target="#cookiemenu" class="btn rounded-sm show" aria-expanded="true">Aceptar</button>
