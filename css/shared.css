@@ -17,7 +17,7 @@ footer{
 nav{
     background-color:#BDBDBD;
 }
-article{
+article,#comsec{
     background-color: #E0E0E0;
     border: 5px solid #4A4A4A;
 }
@@ -25,7 +25,7 @@ footer button,nav p{
     background-color: #91FF64 !important;
     color:white;
 }
-#logo,input,article,article img{
+#logo,input,article,article img,#comsec{
     border-radius: 2rem;
 }
 a,a:hover{

@@ -1,0 +1,13 @@
+#post{
+    border:0;
+    background-color: white;
+    overflow: scroll;
+    border-radius: 0;
+}
+#post p{
+    text-align: justify;
+
+}
+#post h5{
+    padding-top:3% ;
+}
