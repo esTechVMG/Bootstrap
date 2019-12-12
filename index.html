@@ -13,7 +13,7 @@
     <style>
         /*Styling*/
         body{
-
+            font-family: sans-serif;
         }
         header{
             background-color:#91FF64;
@@ -41,6 +41,20 @@
         }
         #logo,input,article,article img{
             border-radius: 2rem;
+        }
+        a,a:hover{
+            color: black;
+            text-decoration: none;
+        }
+        a:active{
+            color: white;
+        }
+        main div h5{
+            color: white !important;
+            background-color: #29A400 !important;
+        }
+        #firstcat{
+            margin-top: 1%;
         }
         /* Structure CSS */
         #logo{
@@ -96,7 +110,12 @@
         #firstbutton{
             margin-top:10%;
         }
-        
+        nav p{
+            white-space: nowrap;
+        }
+        header input{
+            padding-right:1%;
+        }
     </style>
   </head>
   <body class="col">
@@ -106,77 +125,77 @@
                     <h1 class="text-center text-xl-left text-lg-left text-md-left">InfoNews</h1>
                     <h2 class="d-none d-md-block d-xl-block d-lg-block">Información confiable y de calidad </h2>
                 </div>
-                <input type="text" id="search">
+                <input type="text" id="search" class="text-right" placeholder="Search">
             </header>
             <div class="row" id="maincontainer">
                 <div class="row">
                 <nav style="max-width: 20vw;" class="col flex-column d-none d-md-flex d-xl-flex d-lg-flex align-items-center">
-                    <p id="firstbutton" class="nav-link rounded-sm w-75 text-center"><a href="/index.html">Inicio</a></p>
-                    <p class="nav-link rounded-sm w-75 text-center"><a>item list 2</a></p>
-                    <p class="nav-link rounded-sm w-75 text-center"><a>item list 3</a></p>
+                    <p id="firstbutton" class="nav-link rounded-sm w-100 text-center"><a href="/index.html">Inicio</a></p>
+                    <p class="nav-link rounded-sm w-100 text-center"><a href="./html/categories.html">Categorías</a></p>
+                    <p class="nav-link rounded-sm w-100 text-center"><a href="./html/contacto.html">Contacto</a></p>
                     <img src="./img/AdDummy.png" alt="Anuncio" class=" anuncio img-thumbnail justify-content-end">
                 </nav>
                 <main class="col">
-                    <div class="rounded-sm">
-                        <h5 class="text-center my-auto">Categoria 1</h5>
+                    <div id="firstcat" class="rounded-sm">
+                        <h5 class="text-left my-auto btn">Actualidad</h5>
                     </div>
                     <section class="row">
                         <article class="col">
-                            <h5>New 1</h5>
+                            <h5><a href="">New 1</a></h5>
                             <h6>lorem ipsum dolor sit amet</h6>
-                            <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                            <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
                         </article>
                         <article class="col">
-                            <h5>New 2</h5>
+                            <h5><a href="">New 2</a></h5>
                             <h6>lorem ipsum dolor sit amet</h6>
-                            <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                            <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
                         </article>
                         <article class="col">
-                            <h5>New 3</h5>
-                            <h6>lorem ipsum dolor sit amet</h6>
-                            <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                                <h5><a href="">New 3</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
                         </article>
                     </section>
                     <div class="rounded-sm">
-                        <h5 class="text-center my-auto">Categoria 1</h5>
+                        <h5 class="text-left my-auto btn">Deporte</h5>
                     </div>
-                        <section class="row">
+                    <section class="row">
                             <article class="col">
-                                <h5>New 1</h5>
+                                <h5><a href="">New 1</a></h5>
                                 <h6>lorem ipsum dolor sit amet</h6>
-                                <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                                <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
                             </article>
                             <article class="col">
-                                <h5>New 2</h5>
+                                <h5><a href="">New 2</a></h5>
                                 <h6>lorem ipsum dolor sit amet</h6>
-                                <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                                <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
                             </article>
                             <article class="col">
-                                    <h5>New 3</h5>
+                                    <h5><a href="">New 3</a></h5>
                                     <h6>lorem ipsum dolor sit amet</h6>
-                                    <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
+                                    <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
                             </article>
                         </section>
-                        <div class="rounded-sm">
-                                <h5 class="text-center my-auto">Categoria 1</h5>
-                            </div>
-                                <section class="row">
-                                    <article class="col">
-                                        <h5>New 1</h5>
-                                        <h6>lorem ipsum dolor sit amet</h6>
-                                        <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                                    </article>
-                                    <article class="col">
-                                        <h5>New 2</h5>
-                                        <h6>lorem ipsum dolor sit amet</h6>
-                                        <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                                    </article>
-                                    <article class="col">
-                                            <h5>New 3</h5>
-                                            <h6>lorem ipsum dolor sit amet</h6>
-                                            <img src="./img/logo.png" alt="NewPhoto1" class="img-fluid">
-                                    </article>
-                                </section>
+                    <div class="rounded-sm">
+                                <h5 class="text-left my-auto btn">Política</h5>
+                    </div>
+                    <section class="row">
+                            <article class="col">
+                                <h5><a href="">New 1</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                            <article class="col">
+                                <h5><a href="">New 2</a></h5>
+                                <h6>lorem ipsum dolor sit amet</h6>
+                                <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                            <article class="col">
+                                    <h5><a href="">New 3</a></h5>
+                                    <h6>lorem ipsum dolor sit amet</h6>
+                                    <img src="./img/NewsDummy.png" alt="NewPhoto1" class="img-fluid">
+                            </article>
+                        </section>
                 </main>
                 <img src="./img/AdDummy.png" id="latad" alt="Anuncio" class="d-none d-md-block d-xl-block d-lg-block">
             </div>
