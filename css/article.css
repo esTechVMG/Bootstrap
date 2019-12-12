@@ -3,6 +3,7 @@
     background-color: white;
     overflow: scroll;
     border-radius: 0;
+    padding-right: 3%;
 }
 #post p{
     text-align: justify;
@@ -13,4 +14,10 @@
 }
 footer{
     visibility: hidden;
+}
+.box{
+    border:5px solid white;
+    border-radius: 2rem;
+    margin: 0px 5% !important;
+    padding: 5%;
 }
