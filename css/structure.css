@@ -57,3 +57,6 @@ nav p{
 header input{
     padding-right:1%;
 }
+nav{
+    max-width: 20vw !important;
+}
